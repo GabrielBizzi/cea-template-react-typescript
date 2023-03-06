@@ -1,6 +1,6 @@
 {
-  "name": "timesheet",
-  "productName": "timesheet",
+  "name": "my-first-electron-app",
+  "productName": "my-first-electron-app",
   "version": "1.0.0",
   "description": "My Electron application description",
   "main": ".webpack/main",
