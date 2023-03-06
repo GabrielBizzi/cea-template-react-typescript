@@ -17,7 +17,7 @@ Standard Electron App With ReactJS (TypeScript) - Create a new project powered b
 
 ### Start with Template
 
-Use with Create React App:
+Pull the files on the repository.
 
 ```bash
 git pull origin https://github.com/GabrielBizzi/cea-template-react-typescript.git
