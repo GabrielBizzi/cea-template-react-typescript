@@ -8,6 +8,27 @@ export const rules: Required<ModuleOptions>["rules"] = [
     test: /native_modules[/\\].+\.node$/,
     use: "node-loader",
   },
+  // {
+  //   resolve: {
+  //     fallback: {
+  //       path: require.resolve("path-browserify"),
+  //       os: require.resolve("os-browserify/browser"),
+  //       zlib: require.resolve("browserify-zlib"),
+  //       http: require.resolve("stream-http"),
+  //       https: require.resolve("https-browserify"),
+  //       url: require.resolve("url/"),
+  //       assert: require.resolve("assert/"),
+  //       fs: false,
+  //       net: false,
+  //       tls: false,
+  //       module: false,
+  //       child_process: false,
+  //       readline: false,
+  //       stream: require.resolve("stream-browserify"),
+  //       constants: require.resolve("constants-browserify")
+  //     },
+  //   },
+  // },
   {
     test: /[/\\]node_modules[/\\].+\.(m?js|node)$/,
     parser: { amd: false },

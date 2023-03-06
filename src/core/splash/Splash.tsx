@@ -1,11 +1,10 @@
-import * as ReactDOM from "react-dom";
-import * as React from "react";
 import { Splash } from "./styles-splash";
+import { createRoot } from "react-dom/client";
 
-ReactDOM.render(
+const container = document.getElementById("splash");
+const root = createRoot(container);
+root.render(
   <Splash>
     <i>v1.0</i>
-  </Splash>,
-
-  document.getElementById("splash")
+  </Splash>
 );
